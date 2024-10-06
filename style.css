@@ -1,0 +1,171 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+body.light-mode {
+    background-color: #eff1f5;
+    color: #4c4f69;
+}
+
+.light-mode p {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 15px;
+    line-height: 1.3;
+}
+
+body.dark-mode {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+
+.dark-mode p {
+    max-width: 600px; /* Limit the width of the paragraph */
+    margin: 20px auto; /* Center the paragraph with equal margins on top/bottom */
+    padding: 0 15px; /* Optional: padding for extra space inside */
+    line-height: 1.3; /* Adjust line height for compactness */
+}
+
+.light-mode header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #7287fd;
+}
+
+.light-mode main h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #1e66f5;
+}
+
+.light-mode img {
+    border: 3px solid #ea76cb;
+    border-radius: 10px;
+}
+
+.light-mode button {
+    background-color: #179299; /* Green color for Frick Yeah button */
+    color: #eff1f5;
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(23, 146, 153, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.light-mode button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(23, 146, 153, 0.5);
+}
+
+body.dark-mode {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+
+.dark-mode header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #cba6f7;
+}
+
+.dark-mode main h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #89b4fa;
+}
+
+.dark-mode img {
+    border: 3px solid #f5c2e7;
+    border-radius: 10px;
+}
+
+.dark-mode button {
+    background-color: #a6e3a1; /* Green color for Frick Yeah button in dark mode */
+    color: #1e1e2e;
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(166, 227, 161, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dark-mode button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(166, 227, 161, 0.5);
+}
+
+/* Specific styles for the tricky button */
+.tricky-button {
+    background-color: #f38ba8; /* Red color */
+    color: #1e1e2e; /* Text color in dark mode */
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(243, 139, 168, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tricky-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(243, 139, 168, 0.5);
+}
+
+.dark-mode .tricky-button {
+    background-color: #f38ba8; /* Keep it red in dark mode */
+    color: #1e1e2e; /* Change text color if needed */
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.8em;
+    color: #9399b2;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+body.light-mode {
+    background-color: #eff1f5;
+    color: #4c4f69;
+}
+
+.light-mode p {
+    margin: 20px;
+    padding: 0 15px;
+}
+
+body.dark-mode {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+
+.dark-mode p {
+    margin: 20px;
+    padding: 0 15px;
+}
+
